@@ -1,0 +1,16 @@
+{
+    "name": "synv/my-composer-package",
+    "description": "Demo public package composer",
+    "autoload": {
+        "psr-4": {
+            "Synv\\MyComposerPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "synv",
+            "email": "synv@topcv.vn"
+        }
+    ],
+    "require": {}
+}
