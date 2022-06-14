@@ -1,3 +1,8 @@
 <?php
+namespace Synv\MyComposerPackage;
 
-echo 'Hello world. I am package composer';
+class DemoAbc {
+    public function hello () {
+        return 'Hello world. I am package composer';
+    }
+}
